@@ -4,26 +4,27 @@
     "slug": "Perfil3",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/dragon-ball-icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/Kai-planet-icon.jpg",
+      "image": "./assets/dragon-ball-splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1a1a2e"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/Kai-planet-icon.jpg",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/dragon-ball-adaptive.png",
+        "backgroundColor": "#1a1a2e"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.Perfil3"
     },
     "web": {
-      "favicon": "./assets/favicon.png",
+      "favicon": "./assets/dragon-ball-icon.png",
       "bundler": "metro"
     }
   }
